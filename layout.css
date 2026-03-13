@@ -30,7 +30,8 @@ header {
 @media (min-width: 600px) {
   body {
     max-width: 1200px;
-    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
   }
   .minhistorie-page {
     display: grid;
