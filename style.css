@@ -1,0 +1,96 @@
+@font-face {
+  font-family: instrument;
+  src: url(fonts/InstrumentSerif-Italic.woff);
+}
+h1 {
+  font-family: instrument;
+  font-style: oblique;
+}
+@font-face {
+  font-family: indie;
+  src: url(fonts/IndieFlower-Regular.woff);
+}
+
+@font-face {
+  font-family: inclusive;
+  src: url(fonts/InclusiveSans-Regular.woff);
+}
+h2 {
+  font-family: indie;
+}
+button {
+  background-color: #93a1b7;
+  color: rgb(07, 58, 96);
+  border-radius: 2em;
+  margin: 1em;
+}
+p,
+li,
+dl {
+  font-family: inclusive;
+}
+@media (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+  .his1 img,
+  .his2 img,
+  .his3 img,
+  .his4 img {
+    max-height: 80px;
+  }
+}
+a {
+  color: #d9381f;
+}
+header,
+footer {
+  border: #d9381f solid;
+}
+h1,
+h2,
+p,
+li,
+dl {
+  color: rgb(07, 58, 96);
+}
+body {
+  background-color: #fbf6ec;
+}
+header,
+footer {
+  background-color: #fbe5ad;
+}
+.insta img,
+.YT img,
+.Sub img {
+  max-height: 20px;
+  max-width: 30px;
+}
+p,
+h2 {
+  margin: 1em;
+}
+.historie {
+  background-image: url(img/wave.webp), url(img/wave.webp);
+  background-size: contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center;
+}
+.sky {
+  max-height: 250px;
+}
+.jord {
+  max-height: 250px;
+}
+.top5 {
+  list-style: numbered;
+}
+@media (min-width: 600px) {
+  .his1 img,
+  .his2 img,
+  .his3 img,
+  .his4 img {
+    max-height: 200px;
+  }
+}
