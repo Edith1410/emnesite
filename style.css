@@ -189,3 +189,12 @@ img {
 .history {
   background-image: url(img/cloud.webp);
 }
+dl {
+  padding: 0.5em;
+}
+.wave {
+  max-height: 250px;
+}
+.wine {
+  max-height: 200px;
+}
