@@ -33,13 +33,6 @@ dl {
   h1 {
     text-align: center;
   }
-  .his1 img,
-  .his2 img,
-  .his3 img,
-  .his4 img {
-    max-height: 80px;
-    max-width: 120px;
-  }
 }
 a {
   color: #d9381f;
@@ -179,7 +172,20 @@ body {
     display: none;
   }
 }
-.historie {
+img {
+  max-width: 100%;
+}
+.gallery-item {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+}
+.gallery-item > * {
+  grid-area: 1/1;
+}
+.on-top {
+  align-self: center;
+  justify-self: center;
+  background-color: #93a1b7;
+}
+.history {
+  background-image: url(img/cloud.webp);
 }
