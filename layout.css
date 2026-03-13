@@ -22,15 +22,10 @@ header {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .historie {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 2fr;
-  }
-  .position {
-    grid-template-columns: 2 / 3;
-    grid-template-rows: -1 / -3;
-  }
+}
+.position {
+  grid-template-columns: 2 / 3;
+  grid-template-rows: -1 / -3;
 }
 @media (min-width: 600px) {
   body {
@@ -48,4 +43,12 @@ header {
   .glas {
     max-height: 600px;
   }
+}
+/*.historie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+}*/
+.menu {
+  grid-column: -1 / 2;
 }
