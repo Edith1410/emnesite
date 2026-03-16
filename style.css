@@ -19,10 +19,14 @@ h2 {
   font-family: indie;
 }
 button {
-  background-color: #93a1b7;
+  background-color: #d9381f;
   color: rgb(07, 58, 96);
   border-radius: 2em;
   margin: 1em;
+}
+
+button a {
+  color: #ffffff;
 }
 p,
 li,
@@ -35,12 +39,9 @@ dl {
   }
 }
 a {
-  color: #d9381f;
+  color: #c82121;
 }
-header,
-footer {
-  border: #d9381f solid;
-}
+
 h1,
 h2,
 p,
@@ -54,6 +55,7 @@ body {
 header,
 footer {
   background-color: #fbe5ad;
+  border: #d9381f solid;
 }
 .insta img,
 .YT img,
@@ -62,6 +64,11 @@ footer {
   max-width: 30px;
   display: grid;
   grid-template-columns: 1fr;
+}
+footer a {
+  padding: 0.5px;
+  margin: 0.8px;
+  max-height: 60px;
 }
 p,
 h2 {
