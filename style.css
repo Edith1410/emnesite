@@ -25,8 +25,8 @@ h2 {
 button {
   background-color: #d9381f;
   color: rgb(07, 58, 96);
-  border-radius: 2em;
   margin: 1em;
+  border-radius: 2em;
 }
 
 button a {
