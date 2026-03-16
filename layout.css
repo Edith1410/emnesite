@@ -29,7 +29,7 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
-  .minhistorie-page h1 {
+  h1 {
     columns: -1 / 1;
   }
   .glas {
