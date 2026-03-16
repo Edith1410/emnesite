@@ -1,3 +1,7 @@
+.links a {
+  padding: 8px;
+  display: flex;
+}
 @font-face {
   font-family: instrument;
   src: url(fonts/InstrumentSerif-Italic.woff);
@@ -65,11 +69,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
 }
-footer a {
-  padding: 0.5px;
-  margin: 0.8px;
-  max-height: 60px;
-}
 p,
 h2 {
   margin: 1em;
@@ -97,11 +96,11 @@ h2 {
   }
 }
 
-/* burger ccc*/
+/* burger ccc
 body {
   font-family: sans-serif;
   margin: 0;
-}
+}*/
 
 /* skjul checkbox */
 #menu-toggle {
